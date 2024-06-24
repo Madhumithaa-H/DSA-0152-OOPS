@@ -1,0 +1,28 @@
+1. string array:
+
+#include <iostream>
+using namespace std;
+int main() {
+    string s[] = {"klmn", "hij", "def", "abc"};
+    int arraySize = sizeof(s) / sizeof(s[0]);
+    for (int i = 0; i < arraySize; i++) {
+        cout << s[i]<<endl;
+    }
+    return 0;
+}
+
+
+2. name and age
+
+#include <iostream>
+using namespace std;
+int main() {
+    string n;
+    int n1;
+    cout<<"name: ";
+    cin>> n;
+    cout<<"age: ";
+    cin>>n1;
+    cout << "Name: " << n << ", Age: " << n1 << endl;
+    return 0;
+}
